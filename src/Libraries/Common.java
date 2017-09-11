@@ -10,6 +10,7 @@ public class Common extends Driver
 			
 			Browser.OpenBrowser("chrome", "https://www.google.co.in/");
 			Result.takescreenshot("check");
+			System.out.print("Done");
 		}
 		catch(Exception e)
 		{
